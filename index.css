@@ -23,7 +23,6 @@ h1 {
 .root {
     border-radius: 10px;
     padding: 1rem;
-    min-width: 500px;
     max-width: 1000px;
     background-color: hsla(0,0%,100%,.9);
     margin-top: 1rem;
@@ -51,9 +50,5 @@ h1 {
 #downloadButton {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-}
-
-#urlInput {
-    min-width: 400px;
 }
 
