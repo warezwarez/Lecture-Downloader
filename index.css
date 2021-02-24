@@ -1,0 +1,59 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  background: url("https://i.ibb.co/Nn8tD2Y/cool-background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Style buttons */
+h1 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+/* Darker bakcground on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.root {
+    border-radius: 10px;
+    padding: 1rem;
+    min-width: 500px;
+    max-width: 1000px;
+    background-color: hsla(0,0%,100%,.9);
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#urlInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#buttonHolder {
+    padding-top: 0.5rem;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+#downloadButton > i {
+    padding-right: 0.5rem;
+}
+
+#downloadButton {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#urlInput {
+    min-width: 400px;
+}
+
