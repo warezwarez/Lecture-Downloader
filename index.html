@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecture Downloader</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <style>
+        body {
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+          background: url("https://i.ibb.co/Nn8tD2Y/cool-background.png") no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        /* Style buttons */
+        h1 {
+            text-align: center;
+            width: 100%;
+            padding-bottom: 0.5rem;
+        }
+
+        /* Darker bakcground on mouse-over */
+        .btn:hover {
+            background-color: RoyalBlue;
+        }
+
+        .root {
+            border-radius: 10px;
+            padding: 1rem;
+            width: 800px;
+            background-color: hsla(0,0%,100%,.9);
+            margin-top: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #urlInput {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        #buttonHolder {
+            padding-top: 0.5rem;
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+        }
+
+        #downloadButton > i {
+            padding-right: 0.5rem;
+        }
+
+        #downloadButton {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        #urlInput {
+            min-width: 700px;
+        }
+
+    </style>
+</head>
+<script>
+</script>
+<body>
+    <div class="root">
+        <h1>Panopto Lecture Downloader</h1>
+        <input type="text" class="form-control" id="urlInput" placeholder="Add Panopto Lecture Link here">
+        <div id="buttonHolder" class="container">
+            <a id="downloadButton" class="button btn btn-primary disabled" download href><i class="fa fa-download"></i>Right click this, then "Save link as..."</a>
+        </div>
+        <br>
+        <div style="text-align: center; padding-top: 0.5rem">
+            This website is not affiliated with the University of Rochester in any way. Use at your own risk.
+        </div>
+    </div>
+    <script src="link_fetcher.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
